@@ -1,0 +1,94 @@
+body{
+    background-color: #1d1d1d;
+    color: #e7e7e7;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+h1{
+    font-family: Courier New, Courier, monospace;
+}
+
+.student-section{
+    color: #e3a13d;
+}
+
+.project-section{
+    color: #4c56e6;
+}
+
+.experience-section{
+    color: #e7e96e;
+}
+
+.education-section{
+    color: #72e46eee;
+}
+
+.footer-section{
+    color: #c561f3;
+}
+
+a{
+    color: #e2e2e2;
+    text-decoration: none;
+}
+
+i{
+    padding-right: 1em;
+}
+
+i:hover{
+    color: #4261eb;
+}
+
+img{
+    width: 300px;
+    position: absolute;
+    top: 2em;
+    right: 20em;
+    border-radius: 20px;
+}
+
+#email-icon:hover{
+    color: #faf885;
+}
+
+#twitter-icon:hover{
+    color: #56dde7;
+}
+
+#facebook-icon:hover{
+    color: #2f4ae2;
+}
+
+#instagram-icon:hover{
+    color: #df4242;
+}
+
+#lesson1-icon:hover{
+    color: #88f75c;
+    cursor: pointer;
+}
+
+#lesson2-icon:hover{
+    color: #f7c65c;
+    cursor: pointer;
+}
+
+.lsn-1-screenshot-image, .lsn-2-screenshot-image{
+    width: 300px;
+    position: absolute;
+    top: 1em;
+    right: 10em;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+#lesson1-icon:hover .lsn-1-screenshot-image {
+    opacity: 1;
+}
+
+#lesson2-icon:hover .lsn-2-screenshot-image {
+    opacity: 1;
+}
