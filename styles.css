@@ -76,7 +76,17 @@ img{
     cursor: pointer;
 }
 
-.lsn-1-screenshot-image, .lsn-2-screenshot-image{
+#lesson3-icon:hover{
+    color: #cc66eb;
+    cursor: pointer;
+}
+
+#lesson5-icon:hover{
+    color: #548af0;
+    cursor: pointer;
+}
+
+.lsn-1-screenshot-image, .lsn-2-screenshot-image, .lsn-3-screenshot-image, .lsn-5-screenshot-image{
     width: 300px;
     position: absolute;
     top: 1em;
@@ -90,5 +100,13 @@ img{
 }
 
 #lesson2-icon:hover .lsn-2-screenshot-image {
+    opacity: 1;
+}
+
+#lesson3-icon:hover .lsn-3-screenshot-image {
+    opacity: 1;
+}
+
+#lesson5-icon:hover .lsn-5-screenshot-image {
     opacity: 1;
 }
