@@ -16,6 +16,14 @@ h1{
     letter-spacing: 5px;
 }
 
+h3{
+    font-weight: 200;
+}
+
+p{
+    margin: 0.8em;
+}
+
 .student-section{
     color: #e3a13d;
 }
