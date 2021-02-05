@@ -9,6 +9,7 @@ body{
 h1{
     font-family: Courier New, Courier, monospace;
     color: #52ff8f;
+    font-weight: 200;
 }
 
 .student-section{
@@ -29,6 +30,12 @@ h1{
 
 .footer-section{
     color: #c561f3;
+}
+
+.student-section, .project-section, .experience-section, 
+.education-section, .education-section, .footer-section{
+    font-size: medium;
+    font-weight: 300;
 }
 
 a{
