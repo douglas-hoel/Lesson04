@@ -34,6 +34,7 @@ h1{
 
 .student-section, .project-section, .experience-section, 
 .education-section, .education-section, .footer-section{
+    position: relative;
     font-size: medium;
     font-weight: 300;
 }
