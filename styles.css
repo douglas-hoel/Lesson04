@@ -11,6 +11,9 @@ h1{
     color: #52ff8f;
     font-weight: 200;
     float: none;
+    text-transform: uppercase;
+    text-align: center;
+
 }
 
 .student-section{
@@ -57,7 +60,7 @@ i:hover{
 img{
     width: 300px;
     position: absolute;
-    top: 2em;
+    top: 5em;
     right: 20em;
     border-radius: 20px;
 }
@@ -101,7 +104,7 @@ img{
 .lsn-1-screenshot-image, .lsn-2-screenshot-image, .lsn-3-screenshot-image, .lsn-5-screenshot-image{
     width: 300px;
     position: absolute;
-    top: 1em;
+    top: 2em;
     right: 10em;
     border-radius: 10px;
     opacity: 0;
