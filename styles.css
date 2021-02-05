@@ -10,6 +10,7 @@ h1{
     font-family: Courier New, Courier, monospace;
     color: #52ff8f;
     font-weight: 200;
+    float: none;
 }
 
 .student-section{
@@ -35,6 +36,7 @@ h1{
 .student-section, .project-section, .experience-section, 
 .education-section, .education-section, .footer-section{
     position: relative;
+    float: none;
     font-size: medium;
     font-weight: 300;
 }
